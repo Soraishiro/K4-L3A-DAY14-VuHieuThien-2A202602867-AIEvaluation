@@ -21,11 +21,11 @@ Tài liệu chính thức của bài lab:
 
 ### Quy chuẩn đặt tên Repository
 
-| Vai trò | Tên chuẩn |
-|---|---|
-| Assignment / starter repo (repo này) | `K4-L3A-AI-Evaluation` |
-| Student submission repo | `K4-L3A-DAY14-<HoVaTen>-<MSSV>-AIEvaluation` |
-| Ví dụ | `K4-L3A-DAY14-NguyenVanAn-L3A202600280-AIEvaluation` |
+| Vai trò                              | Tên chuẩn                                            |
+| ------------------------------------ | ---------------------------------------------------- |
+| Assignment / starter repo (repo này) | `K4-L3A-AI-Evaluation`                               |
+| Student submission repo              | `K4-L3A-DAY14-<HoVaTen>-<MSSV>-AIEvaluation`         |
+| Ví dụ                                | `K4-L3A-DAY14-NguyenVanAn-L3A202600280-AIEvaluation` |
 
 > ⚠️ **Đặt sai tên repo = trừ 5 điểm** theo quy định trong [RUBRIC.md](RUBRIC.md).
 
@@ -138,36 +138,36 @@ Chi tiết từng task và checkpoints xem tại [`CHECKPOINTS.md`](CHECKPOINTS.
 
 Buổi học diễn ra từ **14:15 đến 18:00**. Hoàn thành bài lab trước **17:00**; thời gian 17:00–18:00 dành cho demo và Q&A.
 
-| Thời gian | Checkpoint | Hoạt động |
-|---|---|---|
-| 14:15–14:30 | **CP0** Setup | Tạo môi trường, baseline tests (42 failed), cấu hình `.env` |
-| 14:30–14:45 | **CP1** Task 1 | Hoàn thành Data Models và `overall_score` (3 passed) |
-| 14:45–15:20 | **CP2** Tasks 2–3 | Hoàn thành RAGAS metrics và LLMJudge (21 passed) |
-| 15:20–15:40 | **CP3** Tasks 4–5 | BenchmarkRunner, FailureAnalyzer (full suite 41 passed, 1 skipped) |
-| 15:40–16:35 | **CP4** Part 3 | Golden Dataset 20 QA, chạy RAG, benchmark thật và rubric |
-| 16:35–17:00 | **CP5** Part 4 | Failure analysis, 5 Whys trong `reflection.md`, copy `solution/solution.py` |
-| 17:00–18:00 | Wrap-up | Demo, review và Q&A |
+| Thời gian   | Checkpoint        | Hoạt động                                                                   |
+| ----------- | ----------------- | --------------------------------------------------------------------------- |
+| 14:15–14:30 | **CP0** Setup     | Tạo môi trường, baseline tests (42 failed), cấu hình `.env`                 |
+| 14:30–14:45 | **CP1** Task 1    | Hoàn thành Data Models và `overall_score` (3 passed)                        |
+| 14:45–15:20 | **CP2** Tasks 2–3 | Hoàn thành RAGAS metrics và LLMJudge (21 passed)                            |
+| 15:20–15:40 | **CP3** Tasks 4–5 | BenchmarkRunner, FailureAnalyzer (full suite 41 passed, 1 skipped)          |
+| 15:40–16:35 | **CP4** Part 3    | Golden Dataset 20 QA, chạy RAG, benchmark thật và rubric                    |
+| 16:35–17:00 | **CP5** Part 4    | Failure analysis, 5 Whys trong `reflection.md`, copy `solution/solution.py` |
+| 17:00–18:00 | Wrap-up           | Demo, review và Q&A                                                         |
 
 ---
 
 ## Đánh giá & Tiêu chí chấm điểm
 
-| Tiêu chí | Điểm |
-|---|---:|
-| Core coding hoàn chỉnh, toàn bộ required tests pass | 50 |
-| Golden dataset 20 QA đúng schema, stratification và evidence | 15 |
-| LLM-as-a-Judge rubric design rõ ràng, domain-specific | 10 |
-| Benchmark, 5 Whys, failure analysis và improvement log | 15 |
-| Chất lượng code, type hints và regression strategy | 10 |
-| **Tổng điểm bắt buộc** | **100** |
+| Tiêu chí                                                     |    Điểm |
+| ------------------------------------------------------------ | ------: |
+| Core coding hoàn chỉnh, toàn bộ required tests pass          |      50 |
+| Golden dataset 20 QA đúng schema, stratification và evidence |      15 |
+| LLM-as-a-Judge rubric design rõ ràng, domain-specific        |      10 |
+| Benchmark, 5 Whys, failure analysis và improvement log       |      15 |
+| Chất lượng code, type hints và regression strategy           |      10 |
+| **Tổng điểm bắt buộc**                                       | **100** |
 
 Điểm thưởng (Bonus):
 
-| Tiêu chí Bonus | Điểm |
-|---|---:|
-| Exercise 3.4 — So sánh hai evaluation frameworks | +5 |
-| Exercise 3.5 — Reranking và phân tích retrieval metrics | +5 |
-| **Tổng bonus tối đa** | **+10** |
+| Tiêu chí Bonus                                          |    Điểm |
+| ------------------------------------------------------- | ------: |
+| Exercise 3.4 — So sánh hai evaluation frameworks        |      +5 |
+| Exercise 3.5 — Reranking và phân tích retrieval metrics |      +5 |
+| **Tổng bonus tối đa**                                   | **+10** |
 
 > Tổng bonus của bài lab tối đa **10 điểm** (Exercise 3.4 +5, Exercise 3.5 +5). Đây là điểm sản phẩm lab, không phải điểm giơ tay / pitching.
 

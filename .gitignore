@@ -5,3 +5,6 @@ __pycache__/
 .venv/
 .env
 .DS_Store
+
+# Sổ tay suy luận cá nhân, không thuộc deliverables của lab.
+NOTES.md
